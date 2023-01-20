@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DROP DOWN MENU</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <div class="nav">
+      <ul class="left-bar">
+          <li><img class="web-logo" src="images/logo.svg" alt=""></li>
+          <li class="nav-main">Features <img onclick="futImg()" class="lg-icon features-icon" src="images/icon-arrow-up.svg" alt=""></li>
+          <li class="nav-main">Company<img onclick="secImg()" class=" lg-icon company-icon" src="images/icon-arrow-up.svg" alt=""></li>
+          <li class="nav-main">Careers</li>
+          <li class="nav-main">About</li>
+        </ul>
+
+        <ul class="right-bar">
+          <li class="nav-main login">Login</li>
+          <button class="register">Register</button>
+          <img class="mb-menu" src="images/icon-menu.svg" alt="">
+        </ul>
+    </div>
+
+    <div>
+      <ul class="secondary-nav-1 visibility">
+        <li class="sec"><img class="sec-icon" src="images/icon-todo.svg" alt=""> Todo list</li>
+        <li class="sec"><img class="sec-icon" src="images/icon-calendar.svg" alt="">Calender</li>
+        <li class="sec"><img class="sec-icon reminder" src="images/icon-reminders.svg" alt="">Reminder</li>
+        <li class="sec"><img class="sec-icon" src="images/icon-planning.svg" alt="">Planning</li>
+      </ul>
+
+      <ul class="secondary-nav-2 visibility">
+        <li>History</li>
+        <li>Our Team</li>
+        <li>Blog</li>
+      </ul>
+    </div>
+
+    <div class="mobile-nav ">
+
+      <img class="cancel-btn" src="images/icon-close-menu.svg" alt="">
+
+     <a class="mb-features" href="#">Features <img  id="features-click" src="images/icon-arrow-up.svg" alt=""></a>
+     <div class="features-dropdown visibility">
+     <a class="feature-sub-link"  href="#"> <img src="images/icon-todo.svg" alt=""> Todo list</a>
+     <a class="feature-sub-link" href="#"> <img src="images/icon-calendar.svg" alt=""> Calender</a>
+     <a class="feature-sub-link" href="#"> <img src="images/icon-reminders.svg" alt=""> Reminder</a>
+     <a class="feature-sub-link" href="#"> <img src="images/icon-planning.svg" alt=""> Planning</a>
+     </div>
+
+     <a class="mb-company" href="#">Company <img id="contact-click" src="images/icon-arrow-up.svg" alt=""></a>
+     <div class="company-dropdown visibility">
+      <a class="company-sub-link"  href="#">History</a>
+      <a class="company-sub-link" href="#">Our Team</a>
+      <a class="company-sub-link" href="#">Blog</a>
+     </div>
+
+     <a class="ca" href="">Careers</a>
+     <a href="">About</a>
+
+     <div class="log-reg">
+      <a class="mb-log" href="">Login</a>
+      <button class="mb-reg">Register</button>
+     </div>
+    </div>
+   
+    <img class="mobile-hero" src="images/image-hero-mobile.png" alt="">
+    <div class="hero-section">
+      <div class="right-content">
+         <h1 class="hero-head">Make remote work</h1>
+         <p>Get your team in sync, no matter the location.
+           stream line processes, create team rituals, and
+           watch productivity soar.
+         </p>
+         <button class="learn-more">Learn more</button>
+
+          <div class="contributors">
+            <img src="images/client-databiz.svg" alt="">
+            <img src="images/client-audiophile.svg" alt="">
+            <img src="images/client-meet.svg" alt="">
+            <img src="images/client-maker.svg" alt="">
+          </div>
+       </div>
+
+        <div class="left-content">
+         <img class="hero-img" src="images/image-hero-desktop.png" alt="illustration">
+        </div>
+    </div>
+
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html> 
